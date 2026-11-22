@@ -1,0 +1,32 @@
+# Secrets & environment
+.env
+.env.*
+!.env.example
+*.json
+
+# Python & virtual envs
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.tar.gz
+*.whl
+
+# Cloud Shell & editor artifacts
+.cache/
+.codeoss/
+.config/
+.docker/
+.gemini/
+.local/
+.npm/
+.rustup/
+.vscode/
+.bash_history
+.bash_logout
+.bashrc
+.profile
+.sudo_as_admin_successful
+README-cloudshell.txt
+*.log
+.DS_Store
