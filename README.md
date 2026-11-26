@@ -97,18 +97,38 @@ flowchart TD
 
 ## Project Structure
 
-The repository organizes the `adk_to_agent_engine` workspace, agent package, deployment utilities, and project governance files into a clean layout.
+The repository organizes the `adk_to_agent_engine` workspace, ADK agent package, Vertex AI Agent Engine utilities, and repository governance files into a clear layout.
+
+```text
+transcript-summarizer-agent/                       # Repository root directory
+├── adk_to_agent_engine/                           # Workspace folder for ADK & Agent Engine files
+│   ├── transcript_summarization_agent/            # Core Transcript Summarizer ADK Agent package
+│   │   ├── __init__.py                            # Package initialization module
+│   │   ├── agent.py                               # Agent definition, instructions, and model setup
+│   │   ├── query_agent_engine.py                  # Vertex AI / Cloud Logging init and agent query logic
+│   │   └── requirements.txt                       # Dependencies for the agent package
+│   │
+│   ├── agent_engine_utils.py                      # Helper utilities for Vertex AI Agent Engine
+│   └── requirements.txt                           # Workspace-level Python dependencies
+│
+├── .gitignore                                     # Excludes secrets, caches, virtual envs, and OS files
+├── CODE_OF_CONDUCT.md                             # Community conduct guidelines
+├── CONTRIBUTING.md                                # Contribution workflows and guidelines
+├── LICENSE                                        # Open-source license terms (Apache-2.0)
+├── README.md                                      # Project documentation
+└── SECURITY.md                                    # Security vulnerability reporting policy
+```
 
 > [!NOTE]
-> This tree mirrors the repository workspace structure.
+> This tree reflects the repository structure on main. Refer to `adk_to_agent_engine/transcript_summarization_agent/` and `adk_to_agent_engine/agent_engine_utils.py` for component implementations.
 
 ### Key Components
 
-- `adk_to_agent_engine/transcript_summarization_agent/` — Contains the ADK agent (`agent.py`), Vertex AI / Cloud Logging initialization and querying logic (`query_agent_engine.py`), package initializer (`__init__.py`), and `requirements.txt`.
-- `adk_to_agent_engine/agent_engine_utils.py` — Provides supporting utilities for deploying and interacting with Vertex AI Agent Engine.
-- `adk_to_agent_engine/README-cloudshell.txt` — Default Cloud Shell workspace readme included from the lab environment.
-- `.gitignore` — Excludes `.env` files, credentials, virtual environments (`.venv/`), and Python caches (`__pycache__/`) from version control.
-- `CONTRIBUTING.md`, `CODE_OF_CONDUCT.md`, and `SECURITY.md` — Outline contribution standards, community conduct, and security-reporting guidelines.
+- `adk_to_agent_engine/transcript_summarization_agent/` — Contains the ADK agent (`agent.py`), Vertex AI and Cloud Logging initialization plus querying code (`query_agent_engine.py`), package initializer (`__init__.py`), and `requirements.txt`.
+- `adk_to_agent_engine/agent_engine_utils.py` — Provides supporting helper utilities for working with Vertex AI Agent Engine.
+- `adk_to_agent_engine/requirements.txt` — Lists workspace-level Python dependencies alongside the agent package's `requirements.txt`.
+- `.gitignore` — Keeps `.env` files, credentials, virtual environments (`.venv/`), and Python caches (`__pycache__/`) out of version control.
+- `CONTRIBUTING.md`, `CODE_OF_CONDUCT.md`, and `SECURITY.md` — Define contribution workflows, community standards, and security-reporting guidelines.
 
 ---
 
