@@ -1,6 +1,6 @@
 # 🤖 Transcript Summarizer Agent 📋
 
-
+https://github.com/user-attachments/assets/7740ed26-431e-4b37-983b-6b08f543aab8
 
 > 🎥 Watch **Transcript Summarizer Agent** in action! 📝
 
@@ -321,5 +321,6 @@ See the [LICENSE](./LICENSE) file for details.
 
 [**Sahil Sharma**](https://github.com/sahil-me)
 
-Thank you for exploring **Transcript Summarizer Agent**! If you find the project useful, consider giving the repository a ⭐ to show your support.
+Thank you for exploring **Transcript Summarizer Agent**! 
 
+If you find the project useful, consider giving the repository a ⭐ to show your support.
