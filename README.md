@@ -199,7 +199,66 @@ transcript-summarizer-agent/                       # Repository root directory
 
 This section showcases **Transcript Summarizer Agent** in action, including Cloud Shell / workspace setup, Vertex AI Agent Engine Playground sessions, traces, and Cloud Logging.
 
+### Transcript Summarizer Agent UI
 
+<img width="1076" height="600" alt="Transcript Summarizer Agent" src="https://github.com/user-attachments/assets/c17d97e2-9343-4107-b2e6-e7cea6e38d84" />
+
+### Google Cloud Console Dashboard
+
+<img width="1366" height="768" alt="Google Cloud Console Dashboard" src="https://github.com/user-attachments/assets/abf31155-5a98-47a0-8cb9-19ab23936405" />
+
+### Project Source Code
+
+<img width="1366" height="767" alt="Project Source Code - 1" src="https://github.com/user-attachments/assets/c93fc956-0889-4d3c-b236-a98461437b34" />
+<img width="1366" height="768" alt="Project Source Code - 2" src="https://github.com/user-attachments/assets/fa5975b0-ed4e-49ac-9234-016f66f309a7" />
+
+### Cloud Shell Terminal
+
+<img width="1366" height="768" alt="Cloud Shell Terminal" src="https://github.com/user-attachments/assets/9b142765-9528-4c7f-892f-53debc0bc65d" />
+
+### Agent Deployments, Revisions & Sessions
+
+<img width="1366" height="768" alt="Agent Runtime Deployments - 1" src="https://github.com/user-attachments/assets/51dd0446-d1e1-4f41-853f-46cc151557c0" />
+<img width="1366" height="768" alt="Agent Runtime Deployments - 2" src="https://github.com/user-attachments/assets/0e1ae94b-abf9-443a-b242-ead8a2aaf906" />
+<img width="1366" height="768" alt="Revisions" src="https://github.com/user-attachments/assets/2fee120f-5b1c-4ff4-bc62-903f3c1582f6" />
+<img width="1366" height="768" alt="Persisted Sessions List" src="https://github.com/user-attachments/assets/24970201-e5da-4c4c-ae5c-76bbc06e6979" />
+
+### Agent Engine Playground
+
+<img width="1366" height="768" alt="Query - 1" src="https://github.com/user-attachments/assets/75fa1ea2-0d0e-4041-828e-e0b3bd56ad7c" />
+<img width="1366" height="768" alt="Query - 2" src="https://github.com/user-attachments/assets/cf408cec-72a9-48a3-99b1-c10b1004a89e" />
+<img width="1366" height="768" alt="Query - 3" src="https://github.com/user-attachments/assets/daad2cb5-810e-4155-9ee5-d02e175e42e7" />
+<img width="1366" height="768" alt="Query - 4" src="https://github.com/user-attachments/assets/49762c1d-1411-4102-97e4-40d94da8e0aa" />
+<img width="1366" height="768" alt="Query - 5" src="https://github.com/user-attachments/assets/9dba454d-9f9a-470f-90a2-b886031171ee" />
+<img width="1366" height="768" alt="Query - 6" src="https://github.com/user-attachments/assets/aae8d6dd-3111-452f-9a71-6970374c98f3" />
+
+### Agent Engine Playground — Execution Traces
+
+<img width="1366" height="768" alt="Traces - 1" src="https://github.com/user-attachments/assets/cf9075ba-3822-40b1-a564-92294e9abd0d" />
+<img width="1366" height="768" alt="Traces - 2" src="https://github.com/user-attachments/assets/e4399f95-142d-4ae6-8c5c-0dfd7a5fede5" />
+<img width="1366" height="768" alt="Traces - 3" src="https://github.com/user-attachments/assets/a51f4e04-47e7-4afc-a0d3-df9432961ef5" />
+<img width="1366" height="768" alt="Traces - 4" src="https://github.com/user-attachments/assets/89fd1d41-1f61-4772-a64f-298dabfc05fe" />
+<img width="1366" height="768" alt="Traces - 5" src="https://github.com/user-attachments/assets/e81c892f-2d81-4a39-8149-e2b6e7825191" />
+
+### Observability, Models & Usage Metrics
+
+<img width="1366" height="768" alt="OMU - 1" src="https://github.com/user-attachments/assets/00e71478-cb81-429d-904a-c5c79ce8dc25" />
+<img width="1366" height="768" alt="OMU - 2" src="https://github.com/user-attachments/assets/79775a25-bef0-4ba4-9ede-8d574e93250a" />
+<img width="1366" height="768" alt="OMU - 3" src="https://github.com/user-attachments/assets/02a38ad6-5c19-4f16-a134-0ae0b0cde2de" />
+<img width="1366" height="768" alt="OMU - 4" src="https://github.com/user-attachments/assets/603bc223-f3e3-4f55-9558-1b4312321531" />
+<img width="1366" height="768" alt="OMU - 5" src="https://github.com/user-attachments/assets/f94ccf3c-76f1-42cc-a2c7-95968936261b" />
+<img width="1366" height="768" alt="OMU - 6" src="https://github.com/user-attachments/assets/fc0891f1-b127-47c9-a281-faa466979aea" />
+<img width="1366" height="768" alt="OMU - 7" src="https://github.com/user-attachments/assets/f90a4045-097e-4ccd-8aff-966ebf430038" />
+
+### Agent Engine Dashboard Logs
+
+<img width="1366" height="Dashboard Logs - 1" alt="SS23" src="https://github.com/user-attachments/assets/7747cd14-793d-4d66-b4c3-a2f14fb4dcbd" />
+<img width="1366" height="768" alt="Dashboard Logs - 2" src="https://github.com/user-attachments/assets/80593e80-b65c-4a9a-8291-fe221a4b3cc0" />
+<img width="1366" height="768" alt="Dashboard Logs - 3" src="https://github.com/user-attachments/assets/8216679f-5331-44e1-b6d2-20a1842f29ea" />
+
+### Logs Explorer
+
+<img width="1366" height="768" alt="Logs Explorer" src="https://github.com/user-attachments/assets/43295aaf-8fa6-4177-8232-6a3c87113620" />
 
 ---
 
